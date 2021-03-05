@@ -1,100 +1,59 @@
-# MkDocs Quickstart
-> A template, live demo and tutorial for how to setup a MkDocs docs site on GitHub Pages
+# Docsify Open Publishing Starter Kit
 
-[![CI status](https://github.com/MichaelCurrin/mkdocs-quickstart/workflows/Deploy%20docs/badge.svg)](https://github.com/MichaelCurrin/mkdocs-quickstart/actions)
-[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/mkdocs-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/mkdocs-quickstart/releases/)
-[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![Docsify](https://img.shields.io/npm/v/docsify?label=docsify)](https://docsify.js.org/)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/blob/master/LICENSE)
+<a href="https://discord.gg/Sn8RtSmw">
+    <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Docsify Discord Chat" />
+</a>
 
-[![Made with Python](https://img.shields.io/badge/Python->%3D3.6-blue?logo=python&logoColor=white)](https://python.org)
-[![Made with MkDocs](https://img.shields.io/badge/MkDocs-~=1.1-blue)](https://www.mkdocs.org/)
-[![CI - GH Actions](https://img.shields.io/badge/CI-GH_Actions-blue?logo=github-actions&logoColor=white)](https://github.com/features/actions)
+> This is a starter kit to create an open [Docsify](https://docsify.js.org) documentation site, with a link automatically created on each page to edit the source Markdown text in a GitHub or GitLab repository.
 
+📸 Docsify Open Publishing Screenshot
+---
+![ Docsify Open Publishing Starter Kit](screenshot.jpg)
+_Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-design.github.io/docsify-open-publishing-starter-kit/](https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/)_
 
-<!-- TODO When creating a new project copied from this template, you can delete this README.md and start over -->
+🚀 Quick GitHub Pages Install Instructions
+---
+**Pre-flight Checklist**  
 
-## Purpose
+1. GitHub account
 
-This project provides low-code content-focused way to setup and host a markdown-based documentation site, with a professional look and themes. Built with MkDocs - a Python package which is a static site generator specializing in documentation.
+**Installation Steps**  
 
-A GitHub Actions workflow is provided with this template so you can easily deploy to GitHub Pages too.
+1. Tap **Use this template** on the source repository (upper-right green button)
+2. Choose the name for your new repository to contain the copied site files and then tap **Create repository from template**
+2. Go to **Settings** of your newly created repository, scroll down to **GitHub Pages** and chose **master branch/docs folder** (see more details in the [Docsify documentation](https://docsify.js.org/#/deploy?id=github-pages))
+3. And you're done! (view your new site using the provided URL right below your **GitHub Pages** section - it can take up to 20 minutes for your site to be initially available)
 
+📝 "Edit the Page on GitHub" Link Setup
+---
 
-## Preview
+1. Edit the file `index.html` in your repository
+2. Find the sample GitHub repository URL `https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/tree/master/docs/` and replace it with your own repository URL, for example `https://github.com/YourGitHubUsername/Docsify/blob/master/docs/`
+3. Commit your changes.
 
-[![Sample screenshot](/sample.png)](https://michaelcurrin.github.io/mkdocs-quickstart/ "Sample screenshot")
+💻 Editing your Docsify Site Locally
+---  
 
-This project uses the _Read the Docs_ theme, as shown above. It comes with MkDocs so you don't need to add to your dependencies. But you can switch to the MkDocs default or install and configure another theme.
+1. Tap **Clone** on your repository page
+2. Choose **Open Desktop** and follow the prompts, installing GitHub Desktop if not already present
+3. You will now be able to edit your Docsify site (in the `docs` folder) using the desktop editor of your choice (e.g. atom.io)
+4. Use GitHub Desktop to push any changes to your repository. [Learn more about using GitHub Desktop](https://help.github.com/en/desktop/contributing-to-projects/committing-and-reviewing-changes-to-your-project).
 
+You can also clone (i.e download) a copy of your repository to your computer and [run Docsify locally](https://docsify.js.org/#/quickstart) to preview your site. See the below video for details.
 
-## How to use this project
+Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.now.sh/deploy?id=gitlab-pages)!
 
-<div align="center">
+📼 Video Walkthrough of Local Docsify Install/Config
+---
+[![Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran](youtube.png)](https://www.youtube.com/watch?v=TV88lp7egMw)  
+_Video 1. Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran_
 
-[![GH Pages](https://img.shields.io/badge/GitHub_Pages-MkDocs_Quickstart-blue?style=for-the-badge)](https://michaelcurrin.github.io/mkdocs-quickstart/)
+📚 Learn More about Docsify
+---
+[Docsify Documentation](https://docsify.js.org/#/?id=docsifyg)
 
-[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
-
-</div>
-
-
-## Features
-
-- A **markdown-based** docs site which is easy to edit - see the content in the [docs](/docs/docs/) directory.
-- Easy to **configure** - see the short [mkdocs.yml](/docs/mkdocs.yml) file.
-- Use the configured theme or switch to another - no need to write HTML and CSS yourself.
-- Each theme comes with a navbar and you write YAML - Jekyll themes on GH Pages need you to write your own HTML often and each theme handles navbar its own way (sometimes not at all).
-- Uses a deploy pipeline on GH Actions to deploy a GH Pages site - the action actually runs GH Pages deploy command.
-- The static site output is **SEO-friendly**.
-- Built on Python but you don't need to write any Python code.
-
-### View live demo site
-
-This project has a site deployed to GitHub Pages.
-
-Purposes of the site:
-
-- A live demo.
-- Content for a beginner-friendly tutorial on how to setup, run, deploy and customize a MkDocs project like this one.
-
-### Use this template
-
-This repo also doubles as a template to create a new project from. Click the button at the top.
-
-Change the content and theme to suit your needs, based on the tutorial site or the MkDocs site.
-
-To isolate the MkDocs flow from the rest of your code, you can put the configs and the `docs` folder of content inside the `docs` directory. That means you end up having `docs/docs`, which is okay. Just make sure you select the `/docs` directory when setting up GH Pages.
-
-
-## About MkDocs
-
-### Resources
-
-- Homepage: [mkdocs.org](http://www.mkdocs.org/)
-- Repo: [![mkdocs - mkdocs](https://img.shields.io/static/v1?label=mkdocs&message=mkdocs&color=blue&logo=github)](https://github.com/mkdocs/mkdocs) [![stars - mkdocs](https://img.shields.io/github/stars/mkdocs/mkdocs?style=social)](https://github.com/mkdocs/mkdocs)
-- PyPI package: [mkdocs](https://pypi.org/project/mkdocs/)
-
-### Why MkDocs?
-
-If you're new to MkDocs, look at the tutorial added on this project's site, otherwise go to the MkDocs homepage for documentation.
-
-This project provides a way to write your docs in markdown and build a professional-looking docs site on top of it, without having to write HTML or CSS code and using a selection of themes. While MkDocs CLI has functionality to deploy from a local command-line, this project makes deploying effortless by using GitHub Actions to build and deploy the site to a `gh-pages` branch and GitHub Pages to serve the site.
-
-Compared with Jekyll and Docsify, I found the MkDocs code is much lighter to setup and changing themes is much easier than Jekyll. Also you get the benefits SEO which Docsify doesn't have. And it includes a search bar using JS.
-
-
-## Contributing
-
-Submit an issue.
-
-Or submit a code change:
-
-1. Fork this project.
-2. Set up the project locally - follow the instructions on the live tutorial or in the [TL;DR](/docs/docs/tutorial/tldr.md) page of the local docs.
-3. Make any changes you want. Be sure to keep a copy of the original license in the repo.
-    - e.g. `cp LICENSE LICENSE-source`
-4. Create a Pull Request.
-
-
-## License
-
-Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
+🙇‍Credits and Special Thanks
+---
+[Docsify Themeable](https://github.com/jhildenbiddle/docsify-themeable)  
