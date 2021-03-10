@@ -19,30 +19,32 @@ A System Librarian has access to all functionalities such as project onboard, cr
 
 Project leads supervise the project metadata and file uploads in the Data Library and supports the team for any data issues.
 
-* Send Data Library access requests, provide project data management & processing requirements using the pre-flight checklist form
+* Send Data Library access requests, provide project data management & processing requirements using the pre-flight checklist form.
 * Coordinate with System Librarian to add users to Data Library project space - send Data Library user account requests, provide project team member names, Mathematica email address, and the roles.
 * Coordinate with System Librarian to set up the Data Library project data processing space - send the project name, project number, project unit, and approximate storage required for project data processing files.
-* Coordinate with System Librarian to remove users from the Data Library when team members exit from the project
+* Coordinate with System Librarian to remove users from the Data Library when team members exit from the project.
 * Add project details to Data Library using **Project Onboard** form. 
 * Add metadata and upload data files (datasets) to Data Library through **Packages**. 
-* Update the details (metadata) of packages belonging to the project
-* Search and view all packages (metadata) in the Data Library
-* View the detailed information of a package (on clicking the package name in the library)
-* Review ingestion fail notification emails for the project datasets, coordinate with System Librarian for project team requests to replace uploaded files
-* View project datasets, analyze/process data using the R, Stata, Python development tools in JuypterHub (Data Library data processing space)
+* Update the details (metadata) of packages belonging to the project.
+* Search and view all packages (metadata) in the Data Library.
+* View the detailed information of a package (on clicking the package name in the library).
+* Review ingestion fail notification emails for the project datasets, coordinate with System Librarian for project team requests to replace uploaded files.
+* View project datasets, analyze/process data using the R, Stata, Python development tools in JuypterHub (Data Library data processing space).
 
-Note that only the Project leads add project information to the Data Library using **Project Onboard** form.
+> Note that only the Project leads add project information to the Data Library using **Project Onboard** form.
+
+> Email DS-LibrarySupport@mathematica-mpr.com to contact the Data Library system librarians for support with the project queries, add new users to the project, and so on.
 
 #### Project Team Developer/ Developer 
 
 * Add metadata and upload data files (datasets) to Data Library through **Packages**.
-* Update the details (metadata) of packages belonging to the project 
-* Search and view all packages (metadata) in the Data Library
-* View the detailed information of a package (on clicking the package name in the library)
-* View project datasets, analyze/process data using the R, Stata, Python development tools in JuypterHub (Data Library data processing space)
+* Update the details (metadata) of packages belonging to the project. 
+* Search and view all packages (metadata) in the Data Library.
+* View the detailed information of a package (on clicking the package name in the library).
+* View project datasets, analyze/process data using the R, Stata, Python development tools in JuypterHub (Data Library data processing space).
 
 #### Project Researcher or Analyst/ Non-Developer 
 
-* Search and view all packages (metadata) in the Data Library
-* View the detailed information of a package (on clicking the package name in the library)
+* Search and view all packages (metadata) in the Data Library.
+* View the detailed information of a package (on clicking the package name in the library).
 
