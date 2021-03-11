@@ -11,9 +11,20 @@ To log in,
 * The projects approved to access the Data Library will receive a separate email invitation to the JupyterHub. 
     * Note that the setting up the JupyterHub workspace for the project may take a couple of days longer than setting up the project access the Data Library to upload the datasets via packages. We recommend that project teams start adding the project details, uploading the datasets to the library and then wait for the JuypterHub email invitation to start processing the datasets within the project storage bucket.
 * Signing in to the JuypterHub involves logging to two UI consoles
-* Click the JupyterHub URL link you receive in the email invitation. The URL is specific for each Data Library projects, and you see the project number in the URL. 
-* Click **Sign up** in the sign in page that appears.  
+* Click the JupyterHub URL link you receive in the email invitation. 
+   ![](images/jup_invite.png)
+   
+   The URL is specific for each Data Library projects, and you see the project number in the URL. 
+   > Save this email with the JuypterHub credentials - it takes a week before the JuypterHub allows the user to change the password in its terminal.
+* Click **Sign up** in the sign in page that appears. 
+   ![](images/jup_signup.png) 
 * Enter your email name as the user name (for example, enter jdoe as the user name if your Mathematica email address is jdoe@mathematica-mpr.com). Enter your email address, the password provided in the invitation, and click **Sign up**.
-* You will then receive an email with a verification code for the sign-in. Enter the verification code and click **Confirm Account**. The action then displays the JupyterHub Console login page.
+   ![](images/jup_createuser.png)
+* You will then receive an email with a verification code for the sign-in. Enter the verification code and click **Confirm Account**.
+   ![](images/jup_code.png) 
+
+   The action then displays the JupyterHub Console login page.
+   ![](images/hub_signin.png)
 * Enter your email name (example jdoe), the password provided in the invitation, and click **Sign in**.
+   ![](images/hub_view.png)
 * You now see the JuypterHub workspace configured for your project.
