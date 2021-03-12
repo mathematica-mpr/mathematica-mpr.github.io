@@ -1,7 +1,7 @@
 
 Data Library is a data lake application to store data, structured or unstructured for data queries and analysis. Hosted as a cloud application, the data library allows for easy and secure storage of a large amount of data in its natural/raw format, data exploration, and visualization. 
 
-The Data Library is a component of the Data SEAS initiative, which is a Mathematica- wide collaborative program towards digital transformation. Data SEAS stands for Data Science, Data Engineering, Data Analytics, and (the intersection of Data and) Social Science.
+🎉The Data Library is a component of the Data SEAS initiative, which is a Mathematica- wide collaborative program towards digital transformation. Data SEAS stands for Data Science, Data Engineering, Data Analytics, and (the intersection of Data and) Social Science.
 
 Using the Data Library data developers, data scientists, researchers, analysts can ingest and process data of any size, catalog the data sets, analyze and report on data to gain insights from the data sets.  
 
@@ -13,7 +13,7 @@ A secure, cost-effective application for data management, the Data Library has t
 - the ability to catalog and tag the datasets in the Data Library for effortless search on the data. 
 - the ability to process the dataset using tools such as R, Stata, Python.
 
-Key Capabilities of Data Library include:
+🎯 Key Capabilities of Data Library include:
 
 * **Data Transfer** – from a variety of data sources allow files to be transferred to an S3 quarantine bucket
 * **Data Catalog** – process and tools that automate the describing of data so it can be easily searched and found, accessed, and administered (e.g., version control)
